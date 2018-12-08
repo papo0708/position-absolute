@@ -1,0 +1,83 @@
+html, body {
+	width: 100%;
+	height: 100%;
+}
+body {
+	padding: 1% 2% 2% 2%;
+}
+.position{
+	text-align: center;
+	font-size: 18px;
+}
+.main {
+	width: 100%;
+	height: 100%;
+	background-color: #22B573;
+	border:solid;
+	border-width: 4px;
+	border-color: #006837;
+	position: relative;
+}
+.li {
+	display: inline-block;
+	margin-left: 3%;
+	margin-top: 3%;
+	font-size: 48px;
+}
+.navigation-a{
+	color: white;
+}
+.boing {
+	background-image: url(../img/boing700.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: absolute;
+    right: 3%;
+    top: 5%;
+    height: 95%;
+    width: 68%;
+}
+.white-box{
+	position: absolute;
+	left: -4px;
+	bottom: -4px;
+	width: 47%;
+	height: 67%;
+	background-color: white;
+}
+.green-box{
+	position: absolute;
+	background: #006837;
+	width: 40%;
+	height: 50%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.properties{
+    position: absolute;	
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%) rotate(45deg );
+	white-space: nowrap;
+	font-size: 39px;
+	text-transform: uppercase;
+	color: #FFFF00;
+
+
+}
+.read-more{
+	position: absolute;
+	bottom: 14px;
+	right: 14px;
+	color: #39B54A;
+	text-transform: uppercase;
+}
+.created{
+	position: absolute;
+	right: 14px;
+	bottom: 14px;
+	text-transform: uppercase;
+	color: #FCEE21;
+}
